@@ -108,10 +108,11 @@ header nav ul li.btn a:hover,
     padding-top: 50px;
 }
 
-.hero--info h2 {
+.hero--category {
     color: #E87D0E;
     font-size: 20px;
     font-weight: 600;
+    display: block;
 }
 
 .hero--info h1 {
@@ -123,7 +124,7 @@ header nav ul li.btn a:hover,
 .hero--info p {
     font-weight: 500;
     line-height: 170%;
-    margin: 30px;
+    margin: 30px 0;
 }
 
 .hero--info .btn {
@@ -144,6 +145,7 @@ header nav ul li.btn a:hover,
     position: absolute;
     top: -150px;
     right: 0;
+    max-width: 50%;
 }
 
 .trending {
@@ -289,7 +291,7 @@ header nav ul li.btn a:hover,
     padding-bottom: 120px;
 }
 
-.email .h3 {
+.email h3 {
     margin-top: 60px;
     font-size: 30px;
 }
