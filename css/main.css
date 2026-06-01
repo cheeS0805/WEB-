@@ -380,3 +380,75 @@ footer hr {
 footer > p {
     text-align: center;
 }
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero--info {
+        max-width: 100%;
+    }
+
+    .hero img {
+        position: static;
+        margin-top: 30px;
+    }
+
+    .trending .games {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .features .info .block {
+        width: 100%;
+    }
+
+    .projects .images {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .email .block {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .email .block input {
+        right: 0;
+        padding-right: 30px;
+        max-width: 100%;
+        position: static;
+    }
+
+    footer .blocks {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .big-text {
+        font-size: 24px;
+    }
+
+    .hero--info h1 {
+        font-size: 36px;
+    }
+}
